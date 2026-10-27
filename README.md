@@ -16,40 +16,40 @@ en su archivo correspondiente).
 
 II. Funcionalidades del Artista (Carga de Contenido) 🎤
 El menú del Artista debe permitir:
-  1. 3a. Agregar / Modificar Álbum: Permite ingresar un nuevo álbum. El
+  1.  Agregar / Modificar Álbum: Permite ingresar un nuevo álbum. El
 nombreArtista debe coincidir con el del artista logueado.
-  2. 3b. Agregar / Modificar Canción: Permite ingresar una nueva canción. El
+  2.  Agregar / Modificar Canción: Permite ingresar una nueva canción. El
 nombreArtista debe coincidir con el del artista logueado y el nombreAlbum debe
 existir previamente en el catálogo.
 
 III. Funcionalidades del Usuario (Consumo e Interacción) ⭐
 El menú del Usuario debe permitir:
-  1. 3c. Ver Catálogo por Artista: Buscar un artista por nombre y listar todos sus
+  1.  Ver Catálogo por Artista: Buscar un artista por nombre y listar todos sus
 álbumes y canciones.
-  2. 3d. Ver Canciones por Álbum: Buscar un álbum por título y listar todas las
+  2.  Ver Canciones por Álbum: Buscar un álbum por título y listar todas las
 canciones asociadas.
-  3. 3e. Ver Info Detallada de Canción: Buscar una canción por título y mostrar toda la
+  3.  Ver Info Detallada de Canción: Buscar una canción por título y mostrar toda la
 información, incluyendo la calificacionPromedio actual.
-  4. 3f. Calificar Canción:
+  4.  Calificar Canción:
 ○ El usuario logueado busca una canción por título y le asigna una
 puntuacion (1 a 5).
 ○ Se registra una nueva Calificacion.
 ○ Actualizar Archivo de Canciones: El sistema debe recalcular y actualizar
 el campo calificacionPromedio de la canción, promediando todas las
 puntuaciones registradas para ese título.
-5. 3g. Ver Mis Calificaciones: Listar todas las canciones que el usuario logueado ha
+5.  Ver Mis Calificaciones: Listar todas las canciones que el usuario logueado ha
 calificado.
 
 IV. Reportes de la Plataforma (Análisis Global) 📊
 Ambos menús (Artista y Usuario) deben tener acceso a los reportes:
-  1. 3h. Reporte de Top 10 Canciones: Mostrar las 10 canciones con la
+  1.  Reporte de Top 10 Canciones: Mostrar las 10 canciones con la
 calificacionPromedio más alta en toda la plataforma, ordenadas
 descendentemente.
-2. 3i. Reporte de Álbumes Recientes: Listar todos los álbumes lanzados en el último
+2.  Reporte de Álbumes Recientes: Listar todos los álbumes lanzados en el último
 año, ordenados por anioLanzamiento.
-3. 3j. Reporte de Artista Más Calificado: Identificar y mostrar el nombreArtista
+3.  Reporte de Artista Más Calificado: Identificar y mostrar el nombreArtista
 que tiene la mayor cantidad total de calificaciones en todas sus canciones.
-4. 3k. Reporte de Usuarios Activos: Mostrar el nicknameUsuario que ha dejado la
+4.  Reporte de Usuarios Activos: Mostrar el nicknameUsuario que ha dejado la
 mayor cantidad total de calificaciones hasta la fecha.
 Requisito Adicional para Promoción
 Para que el grupo de desarrollo pueda optar por la promoción de la materia, deberán
