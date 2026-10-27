@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 
 // Estructuras de Artistas, Usuarios, Álbumes, Canciones, y Calificaciones
 // Proyecto pâgina 15
