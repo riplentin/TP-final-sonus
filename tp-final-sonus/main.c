@@ -2,17 +2,18 @@
 #include <stdlib.h>
 #include <time.h>
 
-// Estructuras de Artistas, Usuarios, ¡lbumes, Canciones, y Calificaciones
+// Estructuras de Artistas, Usuarios, √Ålbumes, Canciones, y Calificaciones
+// Proyecto p√¢gina 15
 
 typedef struct stArtista {
 char idArtista[10];
-char nombre[50]; // Nombre p˙blico del Artista
+char nombre[50]; // Nombre p√∫blico del Artista
 char contrasenia[20]; // Para el login
 char generoPrincipal[30];
 } Artista;
 
 typedef struct stUsuario {
-char idUsuario[10]; // ID de cliente ˙nico
+char idUsuario[10]; // ID de cliente √∫nico
 char email[50];
 char contrasenia[20]; // Para el login
 char nickname[30];
@@ -33,7 +34,7 @@ char idAlbum[10]; // Se usa el nombre del Album como relacion (no es FK)
 char idArtista[10]; // Se usa el nombre del Artista como relacion
 (no es FK)
 int duracionSegundos;
-float calificacionPromedio; // Se calcula din·micamente o se
+float calificacionPromedio; // Se calcula din√°micamente o se
 actualiza
 } Cancion;
 
@@ -41,7 +42,7 @@ typedef struct stCalificacion {
 char idRegistroCal[10];
 char nicknameUsuario[30]; // Se usa el nickname del Usuario como
 relacion
-char idCancion[10]; // Se usa el tÌtulo de la Cancion como relacion
+char idCancion[10]; // Se usa el t√≠tulo de la Cancion como relacion
 int puntuacion; // Valor de 1 a 5 estrellas
 } Calificacion;
 
